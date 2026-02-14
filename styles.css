@@ -93,43 +93,43 @@ body{
     border-top-right-radius: 15px;
 }
 .it-takes-two{
-    background-image: url(/images/it_take_two.jpg);
+    background-image: url(./images/it_take_two.jpg);
     background-size: cover;
 }
 .we-where{
-    background-image: url(/images/we_were_here.png);
+    background-image: url(./images/we_were_here.png);
     background-size: cover;
     background-position: center;
 }
 .barco{
-    background-image: url(/images/barco.jpeg);
+    background-image: url(./images/barco.jpeg);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
     background-color: #E6C7CF;
 }
 .valo{
-    background-image: url(/images/valorant.jpg);
+    background-image: url(./images/valorant.jpg);
     background-size: cover;
     background-position: center;
 }
 .lol{
-    background-image: url(/images/lol.jpg);
+    background-image: url(./images/lol.jpg);
     background-size: cover;
     background-position: center;
 }
 .minecraft{
-    background-image: url(/images/minecraft.jpeg);
+    background-image: url(./images/minecraft.jpeg);
     background-size: cover;
     background-position: center;
 }
 .stardew{
-    background-image: url(/images/stardew.png);
+    background-image: url(./images/stardew.png);
     background-size: cover;
     background-position: center;
 }
 .grounded{
-    background-image: url(/images/grounded.jpeg);
+    background-image: url(./images/grounded.jpeg);
     background-size: cover;
     background-position: center;
 }
@@ -137,7 +137,7 @@ body{
     display: flex;
 }
 .image-vrising{
-    background-image: url(/images/v_rising.jpg);
+    background-image: url(./images/v_rising.jpg);
     height: 335px;
     width: 50%;
     border-top-left-radius: 15px;
@@ -146,7 +146,7 @@ body{
 
 }
 .image-cuphead{
-    background-image: url(/images/cuphead.png);
+    background-image: url(./images/cuphead.png);
     height: 335px;
     width: 50%;
     border-top-right-radius: 15px;
@@ -154,19 +154,19 @@ body{
     background-position: center;
 }
 .peak{
-    background-image: url(/images/peak.png);
+    background-image: url(./images/peak.png);
     background-size: cover;
     background-position: center;
 }
 .kamisama{
-    background-image: url(/images/kamisama.jpg);
+    background-image: url(./images/kamisama.jpg);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
     background-color: #E6C7CF;
 }
 .extras{
-    background-image: url(/images/parchis.jpg);
+    background-image: url(./images/parchis.jpg);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -174,7 +174,7 @@ body{
 
 }
 .us{
-    background-image: url(/images/us.jpeg);
+    background-image: url(./images/us.jpeg);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
