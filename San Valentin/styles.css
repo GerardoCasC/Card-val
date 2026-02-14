@@ -1,0 +1,350 @@
+
+body{
+    background-color: #1C1418;
+    margin: 0 auto;
+    min-height: 720px;
+}
+.carousel{
+    border: #D6336C solid 3px;
+    width: 580px;
+    height: 600px;
+    margin: 80px auto;
+    display: flex;
+    border-radius: 15px;
+    background-color: #F2E9EC;
+    display: flex;
+    z-index: 2;
+    position: relative;
+    box-shadow: 5px 10px 15px 0 rgba(242, 233, 236, 0.3);
+}
+.divisor{
+    position: absolute;
+    height: 3px;
+    width: 100%;
+    background-color: #D6336C;
+    top: 335px;
+    z-index: 10;
+}
+.carousel-control-next-icon{
+    background-color: #A85C73;
+    border-radius: 180px;
+    width: 55px;
+    height: 55px;
+}
+.carousel-control-prev-icon{
+    background-color: #A85C73;
+    border-radius: 180px;
+    width: 55px;
+    height: 55px;
+}
+.inicio-carrusel{
+    display: flex;
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #D6336C;
+    letter-spacing: 2px;
+    font-style: italic;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 335px;
+    background-color: #E6C7CF;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.inicio-carrusel h1{
+    font-size: 72px;
+    text-shadow: 2px 2px 4px #000000, 0 0 .2em #D6336C, 0 0 0.1em #D6336C;
+}
+.icono-carrusel{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 280px;
+    left: 240px;
+    z-index: 20;
+}
+.texto-carrusel{
+    display: flex;
+    flex-direction: column;
+    font-family: "Lora", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #1C1418;
+    letter-spacing: 1px;
+    font-style: italic;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 250px;
+    margin: 15px 20px 0;;
+}
+.texto-carrusel p{
+    font-size: 20px;
+
+}
+.text-final p{
+    font-size: 18px;
+}
+.image-cassurel{
+    height: 335px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.it-takes-two{
+    background-image: url(/images/it_take_two.jpg);
+    background-size: cover;
+}
+.we-where{
+    background-image: url(/images/we_were_here.png);
+    background-size: cover;
+    background-position: center;
+}
+.barco{
+    background-image: url(/images/barco.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #E6C7CF;
+}
+.valo{
+    background-image: url(/images/valorant.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.lol{
+    background-image: url(/images/lol.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.minecraft{
+    background-image: url(/images/minecraft.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+.stardew{
+    background-image: url(/images/stardew.png);
+    background-size: cover;
+    background-position: center;
+}
+.grounded{
+    background-image: url(/images/grounded.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+.repollo{
+    display: flex;
+}
+.image-vrising{
+    background-image: url(/images/v_rising.jpg);
+    height: 335px;
+    width: 50%;
+    border-top-left-radius: 15px;
+    background-size: contain;
+    background-position: center;
+
+}
+.image-cuphead{
+    background-image: url(/images/cuphead.png);
+    height: 335px;
+    width: 50%;
+    border-top-right-radius: 15px;
+    background-size: contain;
+    background-position: center;
+}
+.peak{
+    background-image: url(/images/peak.png);
+    background-size: cover;
+    background-position: center;
+}
+.kamisama{
+    background-image: url(/images/kamisama.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #E6C7CF;
+}
+.extras{
+    background-image: url(/images/parchis.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #E6C7CF;
+
+}
+.us{
+    background-image: url(/images/us.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #E6C7CF;
+}
+.hearth1 {
+    position: absolute;
+    top: 30px;
+    left: 360px;
+  --size: 100px;
+  --half-size: calc(var(--size) / 2);
+
+  background: #D6336C;
+  width: var(--size);
+  height: var(--size);
+  margin: 4rem 2rem;
+  transform: rotate(45deg);
+
+  &::before,
+  &::after {
+    content: "";
+    background: #D6336C;
+    display: block;
+    width: var(--size);
+    height: var(--size);
+    border-radius: 50%;
+    position: absolute;
+    transform: translate(var(--x, 0%), var(--y, 0%));
+  }
+
+  &::before { --y: -50% }
+  &::after { --x: -50% }
+}
+.hearth2 {
+    position: absolute;
+    top: 350px;
+    left: 70px;
+  --size: 100px;
+  --half-size: calc(var(--size) / 2);
+
+  background: #D6336C;
+  width: var(--size);
+  height: var(--size);
+  margin: 4rem 2rem;
+  transform: rotate(45deg);
+
+  &::before,
+  &::after {
+    content: "";
+    background: #D6336C;
+    display: block;
+    width: var(--size);
+    height: var(--size);
+    border-radius: 50%;
+    position: absolute;
+    transform: translate(var(--x, 0%), var(--y, 0%));
+  }
+
+  &::before { --y: -50% }
+  &::after { --x: -50% }
+}
+.hearth3 {
+    position: absolute;
+    top: 130px;
+    right: 250px;
+  --size: 100px;
+  --half-size: calc(var(--size) / 2);
+
+  background: #D6336C;
+  width: var(--size);
+  height: var(--size);
+  margin: 4rem 2rem;
+  transform: rotate(45deg);
+
+  &::before,
+  &::after {
+    content: "";
+    background: #D6336C;
+    display: block;
+    width: var(--size);
+    height: var(--size);
+    border-radius: 50%;
+    position: absolute;
+    transform: translate(var(--x, 0%), var(--y, 0%));
+  }
+
+  &::before { --y: -50% }
+  &::after { --x: -50% }
+}
+.hearth4 {
+    position: absolute;
+    top: 720px;
+    right: 480px;
+  --size: 100px;
+  --half-size: calc(var(--size) / 2);
+
+  background: #D6336C;
+  width: var(--size);
+  height: var(--size);
+  margin: 4rem 2rem;
+  transform: rotate(45deg);
+
+  &::before,
+  &::after {
+    content: "";
+    background: #D6336C;
+    display: block;
+    width: var(--size);
+    height: var(--size);
+    border-radius: 50%;
+    position: absolute;
+    transform: translate(var(--x, 0%), var(--y, 0%));
+  }
+
+  &::before { --y: -50% }
+  &::after { --x: -50% }
+}
+.hearth5 {
+    position: absolute;
+    top: 450px;
+    right: 30px;
+  --size: 100px;
+  --half-size: calc(var(--size) / 2);
+
+  background: #D6336C;
+  width: var(--size);
+  height: var(--size);
+  margin: 4rem 2rem;
+  transform: rotate(45deg);
+
+  &::before,
+  &::after {
+    content: "";
+    background: #D6336C;
+    display: block;
+    width: var(--size);
+    height: var(--size);
+    border-radius: 50%;
+    position: absolute;
+    transform: translate(var(--x, 0%), var(--y, 0%));
+  }
+
+  &::before { --y: -50% }
+  &::after { --x: -50% }
+}
+.hearth6 {
+    position: absolute;
+    top: 660px;
+    left: 400px;
+  --size: 100px;
+  --half-size: calc(var(--size) / 2);
+
+  background: #D6336C;
+  width: var(--size);
+  height: var(--size);
+  margin: 4rem 2rem;
+  transform: rotate(45deg);
+
+  &::before,
+  &::after {
+    content: "";
+    background: #D6336C;
+    display: block;
+    width: var(--size);
+    height: var(--size);
+    border-radius: 50%;
+    position: absolute;
+    transform: translate(var(--x, 0%), var(--y, 0%));
+  }
+
+  &::before { --y: -50% }
+  &::after { --x: -50% }
+}
