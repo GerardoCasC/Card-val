@@ -97,7 +97,7 @@ body{
     background-size: cover;
 }
 .we-where{
-    background-image: url(/images/we_were_here.png);
+    background-image: url(./images/we_were_here.png);
     background-size: cover;
     background-position: center;
 }
