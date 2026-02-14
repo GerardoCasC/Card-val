@@ -93,7 +93,7 @@ body{
     border-top-right-radius: 15px;
 }
 .it-takes-two{
-    background-image: url(images/it_take_two.jpg);
+    background-image: url(./images/it_take_two.jpg);
     background-size: cover;
 }
 .we-where{
